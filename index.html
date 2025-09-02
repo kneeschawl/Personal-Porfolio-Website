@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nischal's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&family=Clash+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo brand-name">
+                <a href="#home" class="active">Nischal</a>
+            </div>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="brand-name"><span class="typing-text"></span></h1>
+            <p class="tagline">Tech Enthusiast and Learner</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Your Name" class="no-right-click">
+                </div>
+                <div class="about-text">
+                    <h3>Tech Enthusiast and Learner</h3>
+                    <p>I am a motivated and enthusiastic learner with a strong passion for technology. Dedicated to developing skills in AI driven, with a keen interest in continuous growth and self-improvement. Adaptable, quick to learn, and eager to apply knowledge in practical settings. Strong problem-solving abilities, a proactive attitude, and excellent teamwork and communication skills. Looking for opportunities to gain hands-on experience and contribute to a dynamic environment.</p>
+                    <p>When I am not into computers, you can find me into vocals.</p>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <ul>
+                            <li>
+                                <a href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-python" style="color: #3776AB;"></i>
+                                    <span>Python</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cplusplus.com/doc/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-cpp" style="color: #00599C;"></i>
+                                    <span>C++</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://dev.mysql.com/doc/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-database" style="color: #4479A1;"></i>
+                                    <span>MySQL</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-js" style="color: #F7DF1E;"></i>
+                                    <span>JavaScript</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.geeksforgeeks.org/data-structures/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-project-diagram" style="color: #4ECDC4;"></i>
+                                    <span>Data Structures</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-brain" style="color: #45B7D1;"></i>
+                                    <span>Algorithms</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="resume-cta">
+                        <a href="Resume.pdf" target="_blank" class="view-resume">
+                            <i class="fas fa-file-alt"></i>
+                            View Resume
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Diabetes Prediction System [SXC Sandbox 2.0 Project]</h3>
+                        <p>Developed the Diabetes Prediction System using Random Forest Model, trained with cleaned Kaggle Data and tested with an average accuracy upto 87%. Finally, Integration with Chatbot was done.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Study Timer with Lofi Music</h3>
+                        <p>Developed a study timer system with features like timer set, notification alarm, lofi music for study ambience, and so on</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 3
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>A brief description of the project and its key features.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>SCSS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" class="contact-form" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="#home" class="home-arrow" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2025 Nischal Gyawali. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
